@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+.image {
+	background-image: url("../images/background.png");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+	padding-top: 180px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sub-title {
+  color: rgb(134, 131, 131);
+  font-weight: bold;
+	padding-top: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.press {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  align-items: center;
+
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+	padding-top: 10px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.grupao {
+display: flex;
+justify-content: space-evenly;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-weight: bold;
+  width: 300px;
+  height: 400px;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-weight: bold;
+  width: 300px;
+  height: 400px;
+}
+
+.flex-other {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-weight: bold;
+  width: 300px;
+  height: 400px;
+}
+.caderno {
+  width: 200px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
